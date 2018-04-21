@@ -1,3 +1,5 @@
+/*Simple java program for bfs traversal*/
+
 package graph;
 
 import java.util.Arrays;
@@ -5,8 +7,11 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 public class BreadhFirstSearch {
+
     private int v;
+    //Adjacency list declaration
     private LinkedList<Integer> adj[];
+
     public BreadhFirstSearch(int n)
     {
         v=n;
