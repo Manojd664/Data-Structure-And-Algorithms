@@ -18,7 +18,7 @@ public class MinimumDepthOfBinaryTree {
         }
     }
 
-    //main method 
+    //main method
     public static void main(String[] args)
     {
         MinimumDepthOfBinaryTree tree=new MinimumDepthOfBinaryTree();
